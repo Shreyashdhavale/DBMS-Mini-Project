@@ -1,0 +1,184 @@
+/* Styles/Patient.css */
+
+.search-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.searchBox {
+  position: relative;
+  width: 350px; /* Adjust width as needed */
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 40px 10px 20px; /* Add padding for the icon */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.searchInput:focus {
+  border-color: #007bff;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 10px; /* Position icon inside the input */
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the icon */
+  color: rgb(84, 86, 82);
+  font-size: 1.06rem;
+}
+
+.add-patient {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.editIcon {
+  margin-right: 5px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top:60px;
+  margin-bottom:60px;
+  height: 350px;
+}
+
+form {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 650px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+}
+
+.input-field label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+input[type="text"]:hover,
+input[type="date"]:hover,
+select:hover,
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.Address-field{
+  width:590px;
+  height:60px;
+}
+
+/* Submit button inside form */
+
+.submit-button{
+  width:590px;
+  text-align: end;
+  margin-top:7px;
+}
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* Patient.css */
+.header{
+  text-align:center;
+  margin-bottom:35px;
+}
+.patient-table {
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+  max-width: 1000px;
+  margin:0 auto
+}
+
+.patient-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+.patient-table th, .patient-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.patient-table th {
+  background-color: #3A99D9;
+}
+
+/* Patient.css */
+.deleteIcon {
+  color: red;
+  cursor: pointer;
+}
+.deleteIcon:hover {
+  color: darkred;
+}
+.editIcon{
+  color: #007bff;
+  margin-right:22px;
+  margin-left:8px;
+}
